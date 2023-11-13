@@ -60,7 +60,6 @@ platformio lib install M5Unified
 ```c++
 #include <M5Unified.h>
 #include <M5Clock.h>
-#include <WiFi.h>
 
 const char* ssid = "ssid";
 const char* password = "password";
