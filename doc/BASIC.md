@@ -82,7 +82,7 @@ Kind: instance method of `M5Clock`
 
 ### cl.init() => void
 
-Initialize Clock with position.
+Initialize clock with position.
 
 | Param |  Type   |
 | :---: | :-----: |
