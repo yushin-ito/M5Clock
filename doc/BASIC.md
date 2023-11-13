@@ -119,12 +119,12 @@ Kind: instance method of `M5Clock`
 
 Try to get the NTP time over WiFi, and then set the RTC.
 
+Kind: instance method of `M5Clock`
+
 |  Param   |     Type     |
 | :------: | :----------: |
 |   ssid   | const char\* |
 | password | const char\* |
-
-Kind: instance method of `M5Clock`
 
 ### cl.drawClock() => void
 
