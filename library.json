@@ -1,0 +1,22 @@
+{
+  "name": "M5Clock",
+  "version": "0.0.1",
+  "description": "An M5Stack library for displaying a clock.",
+  "keywords": "esp32, m5stack, m5stickc, m5stickc-plus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yushin-ito/M5Clock"
+  },
+  "authors": [
+    {
+      "name": "Yushin Ito",
+      "email": "yitengyouxin8@gmail.com",
+      "url": "https://github.com/yushin-ito",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yushin-ito/M5Clock",
+  "frameworks": "*",
+  "platforms": "*"
+}
