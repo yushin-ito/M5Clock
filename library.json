@@ -1,6 +1,6 @@
 {
   "name": "M5Clock",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An M5Stack library for displaying a clock.",
   "keywords": "esp32, m5stack, m5stickc, m5stickc-plus",
   "repository": {
