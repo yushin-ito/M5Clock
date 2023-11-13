@@ -8,7 +8,7 @@
     - [cl.setTextSize(size) => void](#clsettextsizesize--void)
     - [cl.setTextColor(color) => void](#clsettextcolorcolor--void)
     - [cl.setBgColor(color) => void](#clsetbgcolorcolor--void)
-    - [cl.init() => void](#clinit--void)
+    - [cl.init(x, y) => void](#clinitx-y--void)
     - [cl.show() => void](#clshow--void)
     - [cl.hide() => void](#clhide--void)
     - [cl.isDrawing() => bool](#clisdrawing--bool)
@@ -80,7 +80,7 @@ Kind: instance method of `M5Clock`
 | :---: | :------: |
 | color | uint32_t |
 
-### cl.init() => void
+### cl.init(x, y) => void
 
 Initialize clock with position.
 
