@@ -23,14 +23,14 @@ An M5Stack library for displaying clock.
 </ul>
 <br>
 <div align="center">
-  <img src="https://github.com/yushin-ito/M5Clock/assets/75526539/d14ea0dc-1db0-4f11-bddc-c1acdcd93bfe" width="80%"/>
+  <img src="https://github.com/yushin-ito/M5Clock/assets/75526539/57b2c785-39de-4f98-943d-4a75c5a08bff" width="80%"/>
 </div>
 
 <br>
 
 <h2>📦 Installation</h2>
 <a href="https://open.vscode.dev/yushin-ito/M5Clock">
-  <img src="https://github.com/yushin-ito/M5Clock/assets/75526539/57b2c785-39de-4f98-943d-4a75c5a08bff">
+  <img src="https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc">
 </a>
 <br>
 <br>
