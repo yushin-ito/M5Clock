@@ -84,12 +84,12 @@ Kind: instance method of `M5Clock`
 
 Initialize clock with position.
 
+Kind: instance method of `M5Clock`
+
 | Param |  Type   |
 | :---: | :-----: |
 |   x   | int32_t |
 |   y   | int32_t |
-
-Kind: instance method of `M5Clock`
 
 ### cl.show() => void
 
