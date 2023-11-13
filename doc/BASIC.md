@@ -41,7 +41,7 @@ Call the fuctions using the created instance.
 
 ### cl.setPosition(x, y) => void
 
-Set position of Clock box.
+Set position of clock box.
 
 Kind: instance method of `M5Clock`
 
@@ -93,25 +93,25 @@ Kind: instance method of `M5Clock`
 
 ### cl.show() => void
 
-Show Clock.
+Show clock.
 
 Kind: instance method of `M5Clock`
 
 ### cl.hide() => void
 
-Hide Clock.
+Hide clock.
 
 Kind: instance method of `M5Clock`
 
 ### cl.isDrawing() => bool
 
-Get if the Clock is drawing.
+Get if the clock is drawing.
 
 Kind: instance method of `M5Clock`
 
 ### cl.isChanged() => bool
 
-Get if the Clock style is changed.
+Get if the clock style is changed.
 
 Kind: instance method of `M5Clock`
 
@@ -128,6 +128,6 @@ Kind: instance method of `M5Clock`
 
 ### cl.drawClock() => void
 
-Display Clock.
+Display clock.
 
 Kind: instance method of `M5Clock`
