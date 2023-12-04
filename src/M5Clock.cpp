@@ -1,12 +1,12 @@
 #include "M5Clock.h"
 
-TaskHandle_t drawTaskHandle;
+static TaskHandle_t drawTaskHandle;
 
 Context::Context(M5Clock* cl) { _cl = cl; }
 
 M5Clock* Context::getClock() { return _cl; }
 
-void drawLoop(void* args) {
+static void drawLoop(void* args) {
     Context* ctx = reinterpret_cast<Context*>(args);
     M5Clock* cl = ctx->getClock();
 
@@ -133,6 +133,14 @@ bool M5Clock::syncClock(const char* ssid, const char* password) {
     }
 
     return true;
+}
+
+String M5Clock::getTimeStamp() {
+    char timestamp[126];
+    sprintf(timestamp, "%04d/%02d/%02d %02d:%02d", _rtc_date.year,
+        _rtc_date.month, _rtc_date.date, _rtc_time.hours,
+        _rtc_time.minutes, _rtc_time.seconds);
+    return String(timestamp);
 }
 
 void M5Clock::drawClock() {

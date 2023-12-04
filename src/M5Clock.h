@@ -1,3 +1,5 @@
+#ifndef M5CLOCK_H
+#define M5CLOCK_H
 #include <WiFi.h>
 #include <M5Unified.h>
 
@@ -32,10 +34,16 @@ public:
   bool isChanged();
   void setChanged(bool changed);
   bool syncClock(const char* ssid, const char* password);
+  String getTimeStamp();
   void drawClock();
   m5::rtc_date_t getDate();
   m5::rtc_time_t getTime();
 };
+
+#endif // M5CLOCK_H
+
+#ifndef CONTEXT_H
+#define CONTEXT_H
 
 class Context {
 private:
@@ -45,3 +53,5 @@ public:
   Context(M5Clock* cl);
   M5Clock* getClock();
 };
+
+#endif // CONTEXT_H

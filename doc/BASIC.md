@@ -14,6 +14,7 @@
     - [cl.isDrawing() => bool](#clisdrawing--bool)
     - [cl.isChanged() => bool](#clischanged--bool)
     - [cl.syncClock(ssid, password) => void](#clsyncclock--void)
+    - [cl.getTimeStamp() => String](#clgettimestamp--string)
     - [cl.drawClock() => void](#cldrawclock--void)
 
 ## Instance Basics
@@ -125,6 +126,12 @@ Kind: instance method of `M5Clock`
 | :------: | :----------: |
 |   ssid   | const char\* |
 | password | const char\* |
+
+### cl.getTimeStamp() => String
+
+Get time by timestamp.
+
+Kind: instance method of `M5Clock`
 
 ### cl.drawClock() => void
 
